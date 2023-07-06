@@ -20,7 +20,7 @@ image = cv2.imread("C:/Users/david/github/CannyEdgeDetection/funnyCat.webp")
 
 # Define threshold values (adjust as needed)
 threshold1 = 20
-threshold2 = 70
+threshold2 = 60
 
 # Apply Canny edge detection
 edges = canny_edge_detection(image, threshold1, threshold2)
