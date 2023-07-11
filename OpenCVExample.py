@@ -15,7 +15,8 @@ def canny_edge_detection(image, threshold1, threshold2):
     return edges
 
 # Load input image
-image = cv2.imread("C:/Users/david/github/CannyEdgeDetection/funnyCat.webp")
+#image = cv2.imread("C:/Users/david/github/CannyEdgeDetection/funnyCat.webp")
+image = cv2.imread('C:/Users/david/OneDrive/Pictures/funnyCat.webp')
 
 
 # Define threshold values (adjust as needed)
