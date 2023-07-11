@@ -25,7 +25,8 @@ def cannyEdgeDetection(
 
 
 if __name__ == '__main__':
-    path = 'C:/Users/david/github/CannyEdgeDetection/funnyCat.webp'
+    #path = 'C:/Users/david/github/CannyEdgeDetection/funnyCat.webp'
+    path = 'C:/Users/david/OneDrive/Pictures/funnyCat.webp'
     img = np.array(Image.open(path))
     res = cannyEdgeDetection(img, 1.5, (10, 10), 'rgb')
     plt.subplot(121)
