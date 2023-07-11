@@ -1,8 +1,8 @@
 """
-Created on Wed Jan  25 20:10:08 2022
-
-@author: rohit krishna
-@mail  : dev.rohitnp@gmail.com
+08/07/2023
+David Szczecina
+dszczeci@uwaterloo.ca
+based on: https://github.com/rohit-krish/CVFS/tree/main/Canny%20Edge%20Detection
 """
 
 from sobel_edge_detection import sobelEdgeDetection
